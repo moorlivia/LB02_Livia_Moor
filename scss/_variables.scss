@@ -1,0 +1,138 @@
+//
+// Color Variables
+// --------------------------------------------------
+
+
+// Core Colors
+// --------------------------------------------------
+
+// White
+$color-white: #fff !default;
+
+// Navy
+$color-navy: #015 !default;
+
+// Blue
+$color-blue: #1781e3 !default;
+$color-blue-40:  #a2cdf4 !default;
+$color-blue-20:  #d1e6f9 !default;
+
+// Aluminum
+$color-aluminum: #dde3e7 !default;
+$color-aluminum-80:  #e4e9ec !default;
+
+// Horizon
+$color-horizon: #eef3f6 !default;
+$color-horizon-40:  #f8fafb !default;
+
+// Dark gray
+$color-gray: #333 !default;
+$color-gray-90:  #474747 !default;
+$color-gray-80: #5c5c5c !default;
+$color-gray-60: #858585 !default;
+$color-gray-40: #adadad !default;
+$color-gray-20: #d6d6d6 !default;
+
+// Mid gray
+$color-gray-mid: #666 !default;
+
+// Light gray
+$color-gray-light: #bbb !default;
+
+
+// Brand Colors
+// --------------------------------------------------
+
+// Swisscom Blue
+$color-sc-blue: #1af !default;
+
+// Swisscom Red
+$color-sc-red: #d12 !default;
+
+// Swisscom Purple
+$color-sc-purple: #516 !default;
+
+// Swisscom Navy
+$color-sc-navy: $color-navy !default;
+
+// Swisscom White
+$color-sc-white: $color-white !default;
+
+// Swisscom Dark gray
+$color-sc-gray: $color-gray !default;
+
+// Swisscom Mid gray
+$color-sc-gray-mid: $color-gray-mid !default;
+
+// Swisscom Light gray
+$color-sc-gray-light: $color-gray-light !default;
+
+
+// Interaction Colors
+// --------------------------------------------------
+
+// Interaction Blue
+$color-int-blue: #1781e3 !default;
+// Interaction Blue Active
+$color-int-blue--active: #0851da !default;
+
+// Interaction Gray
+$color-int-gray: #cfd5d9 !default;
+// Interaction Gray Active
+$color-int-gray--active: #b1b9be !default;
+
+// Interaction Green
+$color-int-green: #25b252 !default;
+// Interaction Green Active
+$color-int-green--active: #008236 !default;
+
+// Interaction Red
+$color-int-red: #d12 !default;
+// Interaction Red Active
+$color-int-red--active: #be0000 !default;
+
+// Interaction Orange
+$color-int-orange: #ff8b2e !default;
+// Interaction Orange Active
+$color-int-orange--active: #e86416 !default;
+
+
+// Content Colors
+// --------------------------------------------------
+
+// Orchid
+$color-orchid: #a63297 !default;
+// Orchid Active
+$color-orchid--active: #7f2879 !default;
+
+// Iris
+$color-iris: #5944c6 !default;
+// Iris Active
+$color-iris--active: #42389e !default;
+
+// Pink
+$color-pink: #e61e64 !default;
+// Pink Active
+$color-pink--active: #bf1b5a !default;
+
+// Turquoise
+$color-turquoise: #0eaba9 !default;
+// Turquoise Active
+$color-turquoise--active: #0c847e !default;
+
+// Apple
+$color-apple: #91ba2f !default;
+// Apple Active
+$color-apple--active: #759126 !default;
+
+// Petrol
+$color-petrol: #19657a !default;
+// Petrol Active
+$color-petrol--active: #114551 !default;
+
+
+//
+// Other Variables
+// --------------------------------------------------
+
+$font-path: '../fonts/' !default;

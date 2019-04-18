@@ -1,0 +1,11 @@
+- the form should be "split" with 50% (input-fields on the left half and message field on the other half)
+- every field should be labeled
+- button should
+    - be initially disabled
+    - have different state colors (hover, active, disabled)
+- please provide a validation for the textfields
+    - Name, Email, Message are required
+    - (Optional use regex validation)
+        - add further validation for the name (no numbers)
+        - add further validation for the email (with @)
+

@@ -1,0 +1,3 @@
+- Dropdown should be styled properly
+- Dropdown should have a label
+- (Optional) the dropdown menu should be styled
