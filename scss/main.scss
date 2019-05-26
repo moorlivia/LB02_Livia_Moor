@@ -1,1 +1,40 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+.body {
+  font-family: "Archivo", sans-serif;
+  max-width: 1272px;
+}
+
+.content {
+  margin-left: 324px;
+  margin-top: 376px;
+}
+
+.home-picture {
+  width: 30%;
+  float: right;
+  margin-right: 5em;
+}
+
+.home-title {
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+}
+
+.nav-link {
+  margin-top: 12px;
+  font-size: 19px;
+  margin-right: 17px;
+  color: black;
+}
+
+.btn btn-primary {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
