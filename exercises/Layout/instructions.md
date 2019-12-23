@@ -1,4 +1,0 @@
-- use flexbox for a grid layout
-- find a nice solution for mobile view
-- footer and header uses the complete width
-- body is always centered

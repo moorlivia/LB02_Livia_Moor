@@ -1,3 +1,0 @@
-- make yourself familiar with sass
-- style the mainpage
-- import all necessary sass files from the exercises into styles.scss
