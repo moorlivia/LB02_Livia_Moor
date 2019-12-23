@@ -26,7 +26,7 @@
                 </a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active text-dark" href="../index.html">Home</a>
+                        <a class="nav-link active text-dark" href="/">Home</a>
                     </li>
                     <li class="nav justify-content-end">
                         <div class="btn-group">
@@ -202,72 +202,34 @@
                     companies at the interface areas of the Departments of Computer Science. Due to the
                     increasing digitisation and the challenges associated with training offers as a
                     media
-                    technician a good base for a variety of professional fields.</br>
-                    <div>
-                        <form action="mailto:moorlivia@gmail.com" method="post">
-
-                            <div id="kontaktformular">
-
-                                <form id="kontaktform" action="" method="post" class="pure-form pure-form-aligned">
-
-                                    <fieldset>
-                                        <h4>Kontaktformular</h4>
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="exampleFormControlFile1">Datei anhängen:</label>
-                                                <input type="file" class="form-control-file"
-                                                    id="exampleFormControlFile1">
-                                            </div>
-                                        </form>
-                                        </br>
-                                        <div>
-                                            <select class="form-control">
-                                                <label for="form-control">Ansprache</label>
-                                                <option>Auswahl</option>
-                                                <option>Herr</option>
-                                                <option>Frau</option>
-                                            </select>
-                                        </div></br>
-                                        <div class="pure-control-group">
-                                            <label for="name">Name</label>
-                                            <input id="name" name="name" required size="40" placeholder="Name">
-                                        </div>
-                                        <div class="pure-control-group">
-                                            <label for="email">E-Mail</label>
-                                            <input id="email" name="email" type="email" required size="40"
-                                                placeholder="E-Mail">
-                                        </div>
-                                        <div class="pure-control-group">
-                                            <textarea id="nachricht" name="nachricht" required cols="39" rows="10"
-                                                placeholder="Nachricht"></textarea>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                            <label class="form-check-label" for="defaultCheck1">
-                                                Ich möchte in zukunft über weitere Updates benachrichtigt werden.
-                                            </label>
-                                        </div></br>
-                                        <div style="clear:both;"></div>
-                                        <input type="text" name="vorname" value="" size="30" maxlength="50">
-                                        <input type="Submit" name="absenden" value="absenden">
-                                    </fieldset>
-                                </form>
-                                <script>
-                                    function validateForm() {
-                                        var form = document.getElementById("kontaktform");
-                                        return form.checkValidity();
-                                    }
-                                </script>
+                    technician a good base for a variety of professional fields.
+                    <div></br>
+                        <section id="contact">
+                            <h4>Contact</h4>
+                            <div class="clear"></div>
+                            <div class="kontaktformular">
+                                <!--form action= "mailto:moorl@bzz.ch" class="form-horizontal" role="form" method="post"-->
+                                <input type="text" id="name" class="form-control" name="name" placeholder="Name"
+                                    required>
+                                <input type="email" id="email" class="form-control" name="_replyto" placeholder="E-Mail"
+                                    required>
+                                <input type="text" id="betreff" class="form-control" name="_subject"
+                                    placeholder="Betreff" required>
+                                <textarea id="message" class="form-control" rows="5" name="message"
+                                    placeholder="Mitteilung" required></textarea>
+                                <button id="senden" class="absenden" vlaue="Submit Comment"
+                                    type="submit">Senden</button>
+                                <!--a href="#" id="emailLink" id="emailLink">Email</a>
+                                </form-->
                             </div>
+                        </section>
                     </div>
-                    </form>
+
+
+
+                    <!--Grid column-->
                 </div>
-
-
-
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
+                <!--Grid row-->
         </main>
         <!--Main Layout-->
 
@@ -294,7 +256,14 @@
         </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>//nachricht versenden
 
+        $('#senden').on('click', function (event) {
+            var email = 'celike@bzz.ch';
+            var subject = $('#betreff').val();
+            var emailBody = $('#message').val();
+            window.location = 'mailto:' + email + '?subject=' + subject + '&body=' + emailBody;
+        });</script>
 
     </div>
     </div>
