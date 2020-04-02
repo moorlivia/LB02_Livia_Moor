@@ -1,5 +1,5 @@
 # livia-portfolio
-Livia's Portfolio für das Fach Informatik
+Livia's Portfolio für das Fach Informatik. Ich werde die Aufträge in die Webseite implementieren.
 
 # initial setup
 `npm install`
